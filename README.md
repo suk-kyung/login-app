@@ -1,16 +1,36 @@
-# React + Vite
+React Login UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React를 활용하여 로그인 UI를 구현한 작업
+컴포넌트 기반 구조와 상태 관리를 연습
 
-Currently, two official plugins are available:
+사용 기술
+React
+JavaScript
+Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+=================================================
 
-## React Compiler
+주요 기능
+이메일 / 비밀번호 입력
+유효성 검사 (에러 메시지 출력)
+로그인 버튼 클릭 이벤트 처리
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+=================================================
 
-## Expanding the ESLint configuration
+UI 특징
+중앙 정렬 카드 UI
+깔끔한 입력 폼 구성
+버튼 인터랙션 처리
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=================================================
+
+폴더 구조
+components/ui (Input, Button, Form)
+pages (Login)
+
+=================================================
+
+개선 예정
+실제 API 연동
+로그인 성공 후 페이지 이동
+스타일 개선 (CSS 분리)
